@@ -44,7 +44,7 @@ const App = ()=>{
                 return(
                     <tr key={index}>
                         <td>{index+1}</td>
-                        <td>{item.name.first}</td>
+                         <td>{item.name.title}{item.name.first}{item.name.last}</td>
                         <td>{item.email}</td>
                      </tr>
                 )
